@@ -139,7 +139,7 @@ blog__settings:
 # Contact Settings
 
 contact__settings:
-  contact__email: mazamdatangueu@et.intechinfo.fr # Add your email for contact form
+  contact__email: contact@yurafiq.fr # Add your email for contact form
   contact__title: <span class="text-span">Prenez</span> Contact # Add a title to your form
   contact__description: Formulaire de contact. # Add a description to your form
 
