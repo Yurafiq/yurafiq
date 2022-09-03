@@ -1,0 +1,71 @@
+#--------------------------
+# General site settings
+baseurl: ""
+url: "https://eugenemazamda-cloud.com"
+contact:
+  email: mazamdatangueu@et.intechinfo.fr
+
+#------------------
+# Build settings
+markdown: kramdown 
+permalink: /:title
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+# paginate_path: "/skillshumans/page:num/"
+
+# collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  humans:
+    output: true
+    permalink: /humans/:slug
+  projects:
+    output: true
+    permalink: /projects/:slug
+
+# Pages Path
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "humans"
+    values:
+      layout: "human"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  /:title
+
+# Sass config
+sass:
+  sass_dir: _sass
+  style: compressed
