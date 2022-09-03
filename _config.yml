@@ -1,9 +1,9 @@
 #--------------------------
 # General site settings
 baseurl: ""
-url: "https://eugenemazamda-cloud.com"
+url: "https://yurafiq.fr"
 contact:
-  email: mazamdatangueu@et.intechinfo.fr
+  email: admin@yurafiq.fr
 
 #------------------
 # Build settings

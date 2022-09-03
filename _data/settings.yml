@@ -1,9 +1,9 @@
 #-------------------------------
 # Site Settings
 
-title: Mazamda Tangueu
+title: Yurafiq
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Eugene – Portfolio Master en Architecture des Systèmes d'Information à IN'TECH
+description: Yurafiq – Conseilles en Informatique et coaching personnel et entreprises
 
 menu__settings:
   menu__items:
@@ -34,9 +34,9 @@ cover__image: '/images/37.jpg'
 # Author Settings
 
 author:
-  name: Eugene Rodolphe MAZAMDA TANGUEU
+  name: Yurafiq
   title: Eugene Rodolphe 
-  bio: Architecte Cloud & DevOps basé en France, je mets en œuvre des architectures cloud, je conçois des plateformes web et mobile. Je suis également amené à automatiser et industrialiser des infrastructures cloud. Quand je redescends quelques fois sur Terre, c’est souvent pour découvrir d’autres horizons et revêtir mon tablier pour faire de la bonne cuisine.  
+  bio: Architecte Cloud & DevOps basé en France depuis plusieurs années, je mets en œuvre des architectures cloud, je conçois des plateformes web et mobile. Je suis également amené à automatiser et industrialiser des infrastructures cloud. J'accompagne des entrepreneurs dans la réalisation et concrétisation de leurs différents projets. J'accompagne les mosquée de manière bénévole dans la réalisation de leurs projets informatiques et bien d'autres services que vous pouvez consulter sur mon site internet en fonction de vos besoins.  
   image: '/images/me1.jpg'
   avatar: '/images/me1.jpg'
   button__text: Mes réalisations
@@ -130,9 +130,9 @@ blog__settings:
 
 
 # Formations
-formations:
-  formations_title: MES <span class="text-span">FORMATIONS</span>
-  formations_description:
+# formations:
+#   formations_title: MES <span class="text-span">FORMATIONS</span>
+#   formations_description:
 
 
 #-------------------------------
