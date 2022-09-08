@@ -3,25 +3,22 @@
 
 title: Yurafiq
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Yurafiq – Conseilles en Informatique et coaching personnel et entreprises
+description: Yurafiq – Accompagnement personnaliser 
 
 menu__settings:
   menu__items:
-    - title: 'Réalisations'
+    - title: 'Accuiel'
+      url: '/'
+    - title: 'Projects'
       url: '/projects/'
-    - title: 'Compétences'
-      submenu:
-      - url: '/blog/'
-        title: 'Techniques'
-      - url: '/humans/'
-        title: 'Transverses'
-    - title: 'Personnel'
+    - title: 'Services'
+      url: '/blog/'
+    - title: 'A Propos'
       submenu:
       - url: '/about'
-        title: 'A Propos'
-      - url: '/certifications'
-        title: 'Certifications'
-      
+        title: 'About'
+      - url: '/elements'
+        title: 'Elements'
 
 # Call to action button
 cta__button__text: Prenez Contact
@@ -35,104 +32,59 @@ cover__image: '/images/37.jpg'
 
 author:
   name: Yurafiq
-  title: Eugene Rodolphe 
-  bio: Architecte Cloud & DevOps basé en France depuis plusieurs années, je mets en œuvre des architectures cloud, je conçois des plateformes web et mobile. Je suis également amené à automatiser et industrialiser des infrastructures cloud. J'accompagne des entrepreneurs dans la réalisation et concrétisation de leurs différents projets. J'accompagne les mosquée de manière bénévole dans la réalisation de leurs projets informatiques et bien d'autres services que vous pouvez consulter sur mon site internet en fonction de vos besoins.  
+  title: Yurafiq
+  bio: Des Architectes Cloud & DevOps basé en France depuis plusieurs années, mettent en œuvre des architectures cloud, conçoivent des plateformes web et mobile. sont également amené à automatiser et industrialiser des infrastructures cloud. 
+       Accompagnent des entrepreneurs dans la réalisation et concrétisation de leurs différents projets. Accompagnement les mosquée de manière bénévole dans la réalisation de leurs projets informatiques et bien d'autres services que vous pouvez consulter sur notre site internet en fonction de vos besoins.  
   image: '/images/Yurafiq.png'
   avatar: '/images/Yurafiq.png'
-  button__text: Mes réalisations
+  button__text: Nos réalisations
 
 
 #-------------------------------
 # Projects Settings
 
 projects__settings:
-  projects__title: MES DERNIERES <span class="text-span">REALISATIONS</span> # Add a 'text-span' class to highlight text.
-  projects__description: Mes meilleures réalisations web, cloud et DevOps construites entièrement avec passion, simplicité et créativité !
-
-# Humans
-humans__settings:
-  humans__title: MES <span class="text-span">COMPETENCES TRANSVERSES</span> # Add a 'text-span' class to highlight text.
-  humans__description:
+  projects__title: NOS DERNIÈRES <span class="text-span">REALISATIONS</span> # Add a 'text-span' class to highlight text.
+  projects__description: Nos meilleures réalisations web, cloud et DevOps construites entièrement avec passion, simplicité et créativité !
 
 
 #-------------------------------
 # Testimonials Section
 
-testimonial__title: MES <span class="text-span">COLLABORATEURS</span> # Add a 'text-span' class to highlight text.
+testimonial__title: LES <span class="text-span">TÉMOIGNAGES</span>
 
 testimonial-items:
-  - name: "Alexandre CHHAN"
-    image: "/images/alexandre.jfif"
-    designation : "Manager Squad Architecte - Tuteur"
-    content : "Eugène a des facilités sur la montée en compétence technique : rien ne lui est impossible en termes d'implémentation techniques ! Il est à l'écoute et persévérant. Il doit s'affirmer d'avantages en entreprise et notamment avec les autres équipes. Il doit également développer plus de formalisme dans la rédaction de ses documents, de ses rendus, mieux préparer ses réunions et mieux s'organiser sa gestion du temps."
-
   - name: "Karim EL KAIAL"
     image: "/images/karim.jfif"
-    designation : "Architecte Unix"
-    content : "Eugène est une personne Gentille, sociable, à l'écoute, assidu. Comme points fort, il est motivé, autonome dans son travail, efficace, polyvalent dans le domaine et surtout curieux"
-
-  - name: "Guillaume F"
-    image: "/images/guillaume.jfif"
-    designation : "Architecte Cloud - Azure"
-    content : "J'ai eu plaisir à échanger avec Eugène durant sa présence. ll est jovial, de bonne humeur et participe grandement à la bonne ambiance au travail. Au-delà de sa personnalité, une très bonne assiduité au travail, une volonté d'aller au fond des sujets et enfin une grande capacité d'autonomie pour trouver des solutions à des problèmes complexes."
-
-  - name: "Noël GANANATHAN"
-    image: "/images/noel.jfif"
-    designation : "Architecte Cloud - AWS "
-    content : "Eugène est une personne calme, sérieuse et travailleur. Un très bon élément à avoir dans l'équipe. Sa capacité de monter en compétences sur de nouveaux sujets, une très bonne rigueur dans ces rendus (code et documentation). Par contre, il doit apprendre à demander de l'aide plus rapidement pour ne pas bloquer sur un sujet trop longtemps donc plus communiquer en équipe. Il a de très bonnes compétences en développement et services cloud (AZURE et AWS). Eugène aime partager ce qu'il connaît avec les autres. Il est assez sociable et s'intègre facilement dans les différentes équipes."
+    designation : "Architecte Unix - Accenture"
+    content : "Yurafiq une équipe experts Gentille, sociable, à l'écoute, assidu. Comme points fort, ils sont motivé, autonome dans leurs travail, efficace, polyvalent dans le domaine et surtout curieux"
 
   - name: "Thomas PELTIER"
     image: "/images/thomas.jfif"
-    designation : "Ingénieur Infra-IT"
-    content : "Eugène est agréable à vivre, à l'écoute pour ses collègues avec beaucoup d'empathie, travailleur, motivé, déterminé et très ambitieux. Il est une personne attachant, comme amélioration à faire, il faut qu'il s'affirme un peu plus auprès des autres collaborateurs."
-
-  - name: "Salim LE BIHAN"
-    image: "/images/salim.jfif"
-    designation : "Consultant Cloud - Chef de projects"
-    content : "Très bon élément, proactif et curieux, s'intègre facilement dans les équipes et apporte un véritable plus dans la cohésion, accepte et relève les challenges. Il doit détailler d'avantages les feedbacks. Eugène est à l'écoute, patient et prêt à aider. Bonne connaissance de Microsoft Azure."
-
-  - name: "Louakal FEKIH"
-    image: "/images/louakal.jfif"
-    designation : "Ingénieur Windows"
-    content : "Eugène est une personne calme, très agréable, déterminé et avec qui c'est un plaisir de travailler. Bosseur, il n’hésitera pas à se donner à 120% pour un projet et/ou un problème. Passionné, il intéresse à tout type d'innovation. Patience / Humilité / Respect sont 3 mots pour le qualifier."
+    designation : "Ingénieur Infra-IT - Equinix"
+    content : "Eugène expert Yurafiq est agréable à vivre, à l'écoute pour ses collègues avec beaucoup d'empathie, travailleur, motivé, déterminé et très ambitieux. Il est une personne attachant, comme amélioration à faire, il faut qu'il s'affirme un peu plus auprès des autres collaborateurs."
 
   - name: "Elhadj Oumar DOUMBOUYA"
     image: "/images/oumar.jfif"
-    designation : "Ingénieur DevOps"
-    content : "Personne rigoureuse dans le travail, calme et sympathique, Forte capacité d'analyse, grande vitesse de compréhension, sérénité à toutes épreuves, Esprit d'équipe, Curiosité, Envie d'apprendre et de progresser. Avec Eugène les limites sont sans fin."
+    designation : "Ingénieur DevOps - Accenture"
+    content : "Les experts Yurafiq sont rigoureuses dans le travail, calme et sympathique, Forte capacité d'analyse, grande vitesse de compréhension, sérénité à toutes épreuves, Esprit d'équipe, Curiosité, Envie d'apprendre et de progresser. Avec Eugène les limites sont sans fin."
 
   - name: "Cheick Traore"
     image: "/images/cheick.png"
-    designation : "Architecte Cloud"
-    content : "J'ai collaboré pendant 1 an avec Eugene durant cette année travaillé avec Eugene a été vraiment un plus pour moi de par son expérience et sa prise de hauteur sur les sujets complexes de plus Eugene est quelqu’un qui m'as permis de monter rapidement en compétences pour passer des certifications d'architecte Azure."
-
-  - name: "Adam BAEZA"
-    image: "/images/adam.jfif"
-    designation : "Ingénieur Réseaux"
-    content : "Eugène est une personne agréable qui a une volonté d'apprendre. C'est une personne avec une bonne connaissance du cloud publique. Comme axes d'amélioration, Eugène ne se prononce pas. En deux mots, c'est une personne avenante et sympathique."
+    designation : "Architecte Cloud - Devoteam"
+    content : "J'ai collaboré pendant 1 an avec Eugene aujourd'hui expert de Yurafiq. durant cette année travaillé avec Eugene a été vraiment un plus pour moi de par son expérience et sa prise de hauteur sur les sujets complexes de plus Eugene est quelqu’un qui m'as permis de monter rapidement en compétences pour passer des certifications d'architecte Azure."
 
   - name: "Gaëtan ONAHETA"
     image: "/images/gaetan.jfif"
-    designation : "Architecte Unix"
-    content : "Eugène sait écouter et comprendre (c'est rare aujourd'hui), très agile, s'adapte et répond au besoin ou changements demandés. Très organisé dans son travail, il est transparent le long de son projet. Selon moi, son atout majeur, c'est sa capacité d'analyse, elle lui permet de voir large afin de poser les bonnes questions et de répondre de manière ciblée, efficace et pertinente avec des solutions techniques adaptées, claires et précises."
+    designation : "Architecte Unix - Indépendant"
+    content : "Eugène expert de Yurafiq sait écouter et comprendre (c'est rare aujourd'hui), très agile, s'adapte et répond au besoin ou changements demandés. Très organisé dans son travail, il est transparent le long de son projet. Selon moi, son atout majeur, c'est sa capacité d'analyse, elle lui permet de voir large afin de poser les bonnes questions et de répondre de manière ciblée, efficace et pertinente avec des solutions techniques adaptées, claires et précises."
 
-  - name: "Aure BERNIER"
-    image: "/images/aure.jfif"
-    designation : "Project Manager"
-    content : "Très bonne personnalité, à l'écoute et toujours enthousiaste. La motivation et l'enthousiasme sont ses points forts. Il a une compréhension des autres qui est incroyable."
 #-------------------------------
 # Blog Section
 
 blog__settings:
-  blog__title: MES <span class="text-span">COMPETENCES TECHNIQUES</span> # Add a 'text-span' class to highlight text.
+  blog__title: Nos<span class="text-span">Services</span> # Add a 'text-span' class to highlight text.
   blog__description:
-
-
-
-# Formations
-# formations:
-#   formations_title: MES <span class="text-span">FORMATIONS</span>
-#   formations_description:
 
 
 #-------------------------------
@@ -144,25 +96,26 @@ contact__settings:
   contact__description: Formulaire de contact. # Add a description to your form
 
 # NOTE
+# Avenco comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
 
 
 #-------------------------------
 # Newsletter Settings
 mailchimp__settings:
-  mailchimp__title: <span class="text-span">Join</span> my mailing list # Add your title
-  mailchimp__text: " 'Get inspiration, updates and', 'cool stuff about design!' " # Add descriptions to the form by wrapping the text in single quotes. If you want to use more than one sentence, be sure to separate them with a comma.
+  mailchimp__title: <span class="text-span">Inscrivez-vous</span> à la newsletter # Add your title
+  mailchimp__text: " 'Obtenez de inspiration et des trucs cool sur le coaching personnel ! ' " # Add descriptions to the form by wrapping the text in single quotes. If you want to use more than one sentence, be sure to separate them with a comma.
   mailchimp__identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
-  mailchimp__button__text: Subscribe # Add your button text
+  mailchimp__button__text: Abonnez-vous # Add your button text
 
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: eugenestudio-demo # add your shortname for Disqus Comment. For example anvodstudio-demo
+disqus-identifier: anvodstudio-demo # add your shortname for Disqus Comment. For example anvodstudio-demo
 
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+google-analytics: UA-239784083-1 # Add your identifier. For example UA-99631805-1.
 
 
 #-------------------------------

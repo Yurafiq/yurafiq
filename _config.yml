@@ -1,13 +1,12 @@
-#--------------------------
-# General site settings
-baseurl: ""
-url: "https://yurafiq.fr"
-contact:
-  email: contact@yurafiq.fr
+#-------------------------------
+# General Site Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yurafiq.fr" # the base hostname & protocol for your site, e.g. http://example.com
 
-#------------------
-# Build settings
-markdown: kramdown 
+
+#-------------------------------
+# Build Settings
+markdown: kramdown
 permalink: /:title
 plugins:
   - jekyll-paginate
@@ -15,10 +14,10 @@ plugins:
   - jekyll/tagging
 
 paginate: 6
-paginate_path: "/blog/page:num/"
-# paginate_path: "/skillshumans/page:num/"
+paginate_path: "/blog/page/:num"
 
-# collections
+
+# Collections
 collections:
   pages:
     output: true
@@ -26,12 +25,12 @@ collections:
   posts:
     output: true
     permalink: /blog/:slug
-  humans:
+  services:
     output: true
-    permalink: /humans/:slug
+    permalink: /service/:slug
   projects:
     output: true
-    permalink: /projects/:slug
+    permalink: /project/:slug
 
 # Pages Path
 defaults:
@@ -51,21 +50,16 @@ defaults:
       layout: "post"
   - scope:
       path: ""
-      type: "humans"
-    values:
-      layout: "human"
-  - scope:
-      path: ""
       type: "projects"
     values:
       layout: "project"
+
 
 # Tags
 tag_page_dir:         tag
 tag_page_layout:      tag_page
 tag_permalink_style:  /:title
 
-# Sass config
 sass:
   sass_dir: _sass
   style: compressed
