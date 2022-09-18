@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Accompagnement Entreprise(s)
+title:  Accompagnement Entreprise(s) - En cours
 date:   2018-11-11 15:01:35 +0300 
 image:  '/images/entreprise.png'
 tags:   [entreprise, developpement, rest]

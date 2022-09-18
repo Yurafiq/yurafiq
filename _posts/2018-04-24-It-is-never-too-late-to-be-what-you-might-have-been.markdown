@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Accompagnement Étudiant
+title:  Accompagnement Étudiant - En cours
 date:   2018-11-13 15:01:35 +0300
 image:  '/images/student.jpg'
 tags:   [student, académique]

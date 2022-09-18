@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Accompagnement développement d'un produit 
+title:  Accompagnement développement d'un produit - En cours
 date:   2018-05-29  15:01:35 +0300 
 image:  '/images/produit.png'
 tags:   [cto, cpo]

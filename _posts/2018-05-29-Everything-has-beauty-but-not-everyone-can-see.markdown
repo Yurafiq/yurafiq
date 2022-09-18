@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Accompagnement Entrepreneur(s)
+title:  Accompagnement Entrepreneur(s) - En cours
 date:   2018-11-12  18:05:55 +0300
 image:  '/images/freelancer.png'
 tags:   [self, developpement]

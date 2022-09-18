@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Accompagnement développement projets
+title:  Accompagnement développement projets - En cours
 date:   2018-11-08 15:01:35 +0300
 image:  '/images/projets.png'
 tags:   [student, life, story]

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About - En cours
 image: '/images/15.jpg'
 ---
 

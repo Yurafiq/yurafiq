@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Certifications
+title: Certifications - En cours
 image: '/images/27.jpg'
 ---
 
