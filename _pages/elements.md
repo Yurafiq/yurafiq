@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Certifications
 image: '/images/27.jpg'
 ---
 
