@@ -18,7 +18,7 @@ menu__settings:
       - url: '/about'
         title: 'About'
       - url: '/elements'
-        title: 'Elements'
+        title: 'Certifications'
 
 # Call to action button
 cta__button__text: Prenez Contact
